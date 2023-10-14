@@ -1,0 +1,57 @@
+import java.util.*;
+public class Movie{
+    String name;
+    int rating;
+    long moneyCollection;
+    long profit;
+    String LeadActor;
+    String LeadActress;
+        
+    public static void main(String[] args) {
+        Movie m1 = new Movie();
+        m1.name = "Batman 1";
+        m1.rating = 8;
+        m1.moneyCollection = 200000;
+        m1.profit = 5000;
+        m1.LeadActor = "Rachel Gupta & Nikhil Chinapa";
+        m1.LeadActress = "Disha";
+        
+        //System.out.println(m1.name);
+        System.out.println(m1.rating);
+        System.out.println(m1.moneyCollection);
+        System.out.println(m1.profit);
+        System.out.println(m1.LeadActor);
+        System.out.println(m1.LeadActress);
+        
+        Movie m2 = new Movie();
+        m2.name = "Batman 2";
+        m2.rating = 9;
+        m2.moneyCollection = 500000;
+        m2.profit = 8000;
+        m2.LeadActor = "Rannvijay Singha & Prince Narula";
+        m2.LeadActress = "Neha Dhupia";
+        
+        //System.out.println(m2.name);
+        System.out.println(m2.rating);
+        System.out.println(m2.moneyCollection);
+        System.out.println(m2.profit);
+        System.out.println(m2.LeadActor);
+        System.out.println(m2.LeadActress);
+        
+        Movie m3 = new Movie();
+        m3.name = "Batman 3";
+        m3.rating = 10;
+        m3.moneyCollection = 700000;
+        m3.profit = 6000;
+        m3.LeadActor = "Rachel Gupta & Prince Narula";
+        m3.LeadActress = "Neha Dhupia";
+        
+       // System.out.println(m3.name);
+        System.out.println(m3.rating);
+        System.out.println(m3.moneyCollection);
+        System.out.println(m3.profit);
+        System.out.println(m3.LeadActor);
+        System.out.println(m3.LeadActress);
+        
+    }
+}
